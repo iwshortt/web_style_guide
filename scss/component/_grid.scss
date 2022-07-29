@@ -93,3 +93,11 @@
 .card {
   flex-basis: 100%;
 }
+
+@media (min-width: $break) {
+  @for $i from 1 through 12 {
+    .col-#{$i} {
+      flex-basis: $i * calc(100%/12);
+    }
+  }
+}

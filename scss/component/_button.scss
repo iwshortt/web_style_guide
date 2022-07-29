@@ -21,34 +21,34 @@
 .default {
   background-color: $default;
   &:hover {
-    background-color: light($default);
+    background-color: lighten($default, 15%);
   }
 }
 
 .error {
   background-color: $error;
   &:hover {
-    background-color: light($error);
+    background-color: lighten($error, 15%);
   }
 }
 
 .info {
   background-color: $info;
   &:hover {
-    background-color: light($info);
+    background-color: lighten($info, 15%);
   }
 }
 
 .success {
   background-color: $success;
   &:hover {
-    background-color: light($success);
+    background-color: lighten($success, 15%);
   }
 }
 
 .warning {
   background-color: $warning;
   &:hover {
-    background-color: light($warning);
+    background-color: lighten($warning, 15%);
   }
 }
