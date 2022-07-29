@@ -1,0 +1,38 @@
+/* ============================================= */
+/*                     Mixins                    */
+/* ============================================= */
+
+@mixin center(
+    $top: null,
+    $right: null,
+    $btm: null,
+    $left: null) {
+    margin-top: $top;
+    margin-right: $right;
+    margin-bottom: $btm;
+    margin-left: $left;
+    @content;
+}
+
+@mixin flexy(
+    $disp: null,
+    $dir: null,
+    $wrap: null,
+    $just: null,
+    $align: null,
+    $basis: null) {
+    display: $disp;
+    flex-direction: $dir;
+    flex-wrap: $wrap;
+    justify-content: $just;
+    align-items: $align;
+    flex-basis: $basis;
+    @content;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+.img {
+  &-avatar {
+    @include flexy($disp: block) {
+        @include center($top: 10px, $right: auto, $left: auto);
+      }
+    max-width: 100%; 
+    max-height: 100%;
+  }
+  &-frame {
+    @include flexy($disp: block) {
+        @include center($top: 10px, $right: auto, $left: auto);
+      }
+    max-width: 100%;
+    padding: 13px;
+    border: 1px solid $color-secondary-light;
+  }
+  &-logo {
+    @include flexy($disp: block) {
+        @include center($right: auto, $left: auto);
+      }
+  }    
+}
+
+@media (min-width: $break) {
+    .logo {
+      @include center($left: initial, $right: initial)
+    }      
+}
+
+
+
+

@@ -1,0 +1,14 @@
+/* ============================================= */
+/*                   Functions                   */
+/* ============================================= */
+
+@function light($bg-light) {
+    @return (lighten($bg-light, 15%));
+}
+
+@function basis($value, $base: $value) {
+    @return ($value + $base) + 8.33%;
+}
+
+
+
