@@ -6,9 +6,9 @@
     @return (lighten($bg-light, 15%));
 }
 
-@function basis($value, $base: $value) {
-    @return ($value + $base) + 8.33%;
-}
+// @function basis($value, $base: $value) {
+//     @return ($value + $base) + 8.33%;
+// }
 
 
 
